@@ -1,0 +1,347 @@
+/*font-family: 'Montserrat', sans-serif;*/
+:root  {
+
+    --black: #000000;
+    --gray: #949494;
+    --White: #FFFFFF;
+    --blue:  #263FA3;
+}
+
+*,
+*::before,
+*::after{
+
+margin: 0;
+padding:0;
+box-sizing: border-box;
+
+}
+body{
+font-family: "Montserrat", sans-serif;
+height: 100vh;
+}
+
+
+.wrapper{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 30px 90px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.rectangle {
+
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    left: 1320px;
+    top: 25px;
+    z-index: 1;
+
+}
+.header{
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  background: var(--White) ;
+}
+.logo{
+    width: 120px ;    
+    height: 30px;
+}
+
+.nav-items{
+
+    display: flex;
+}
+.nav-items li a{
+position: relative;
+font-size: 14px;
+line-height: 17px;
+color: var(--gray);
+margin: 0 19px;
+z-index: 2;
+
+}
+
+.nav-items li a.active{
+    font-weight: bold;
+    color: #000000;
+}
+.nav-items li a.passive{
+    margin: 0 104px;
+    color: var(--White);
+}
+.hero-container{
+
+    display: flex;
+    margin-top: 110px;
+}.hero-container .right{
+    display: flex;
+}
+
+.hero-container .left{
+    margin-top: 100px;
+}
+.hero-container .left h1{
+    
+    width: 449px;
+    height: 66px;
+    left: 83px;
+    top: 140px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+}
+.hero-container .left p {
+    
+    width: 504px;
+    height: 93px;
+    left: 83px;
+    top: 414px;
+}
+.hero-container .left a{
+    position: relative;
+    color: var(--White);
+    left: 17px;
+    z-index: 2;
+}
+.hero-container .left img{
+position: absolute;
+width: 150px;
+height: 45px;
+left: 367px;
+top: 480px;
+z-index: 1;
+}
+.hero-container .left h2{
+    width: 528px;
+height: 66px;
+left: 83px;
+top: 333px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 66px;
+color: var(--blue) 
+
+}
+.nav-items2{
+    
+    display: flex; 
+}
+.nav-items2 li a.active{
+    position: relative;
+    color: #000000;
+
+    left: -70px;
+    top: 50px;
+    margin: 90px;
+    width: 37px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.nav-items2 li a.passive{    
+    position: relative;
+    color: var(--gray);
+    width: 59px;
+    height: 20px; 
+    top: 120px;
+    left: -1000px;
+    margin: 0px 90px;
+    margin-top: 200px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.search{
+    width: 100%;  
+}
+
+.arrows a.right{
+    position: relative;
+    left: 1040px;
+    top: 169px;
+}
+.arrows a.left{
+    position: relative;
+    left: 900px;
+    top: 155px;
+}
+.arrows h1{
+    position: relative;
+    top: 225px;
+    width: 100%;
+    height: 66px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+}
+.hero-container-triple{
+    display: flex;
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+.hero-container-triple .left{
+    position: relative;
+    top: -50px;
+
+}
+.hero-container-triple .left .button{
+    position: relative;
+    z-index: 2;
+    left: 225px;
+}
+.hero-container-triple .left .product{
+    position: relative;
+    z-index: 1;
+    left: -50px;
+    top: 250px;
+}
+.hero-container-triple .left p.year{
+    position: relative;
+    color: var(--gray);
+    z-index: 2;
+}
+.hero-container-triple .left h1{
+    position: relative;
+    z-index: 2;
+}
+.hero-container-triple .left h2{
+    position: relative;
+    top: 32px;
+    z-index: 2;
+}
+.hero-container-triple .left p.bid{
+    position: relative;
+    top: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    z-index: 2;
+}
+.hero-container-triple .left p.close{
+    position: relative;
+    color: var(--gray);
+    top: 9px;
+    left: 190px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    z-index: 2;
+}
+.hero-container-triple .middle{
+    position: relative;
+    left: -20px;
+}
+
+.hero-container-triple .middle .button{
+    position: relative;
+    z-index: 2;
+    left: 225px;
+}
+.hero-container-triple .middle .product{
+    position: relative;
+    z-index: 1;
+    left: -20px;
+    top: 210px;
+}
+.hero-container-triple .middle p.year{
+    position: relative;
+    z-index: 2;
+    color: var(--gray);
+}
+.hero-container-triple .middle h1{
+    position: relative;
+    z-index: 2;
+}
+.hero-container-triple .middle h2{
+    position: relative;
+    top: 32px;
+    z-index: 2;
+}
+.hero-container-triple .middle p.bid{
+    position: relative;
+    top: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    z-index: 2;
+}
+.hero-container-triple .middle p.close{
+    position: relative;
+    color: var(--gray);
+    top: 9px;
+    left: 190px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    z-index: 2;
+}
+.hero-container-triple .right{
+    width: 100%;
+}
+.hero-container-triple .right .button{
+    position: relative;
+    z-index: 2;
+    left: 225px;
+    
+}
+.hero-container-triple .right .product{
+    position: relative;
+    z-index: 1;
+    left: -20px;
+    top: 210px;
+}
+.hero-container-triple .right p.year{
+    position: relative;
+    z-index: 2;
+    color: var(--gray);
+}
+.hero-container-triple .right h1{
+    position: relative;
+    z-index: 2;
+}
+.hero-container-triple .right h2{
+    position: relative;
+    top: 32px;
+    z-index: 2;
+}
+.hero-container-triple .right p.bid{
+    position: relative;
+    top: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    z-index: 2;
+}
+.hero-container-triple .right p.close{
+    position: relative;
+    color: var(--gray);
+    top: 9px;
+    left: 190px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    z-index: 2;
+}
+.lastPart img{
+    position: relative;
+    left: -1242px;
+    top: 700px;
+}
+
